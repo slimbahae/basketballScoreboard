@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Document</title>
+</head>
+<body>
+
+    <div class="scoreboard">
+        <div class="home">
+            <span>Home</span>
+            <span id="scoreHome"></span>
+            <div class="buttons">
+                <button class="add1" onclick="homeAdd1()">+1</button>
+                <button class="add2" onclick="homeAdd2()">+2</button>
+                <button class="add3" onclick="homeAdd3()">+3</button>
+                <button class="reset" onclick="resetHome()">reset</button>
+            </div>
+
+        </div>
+
+        <div class="ball-logo"><i class="fa-solid fa-basketball"></i></div>
+
+        <div class="away">
+            <span>Away</span>
+            <span id="scoreAway"></span>
+            <div class="buttons">
+                <button class="add1" onclick="awayAdd1()">+1</button>
+                <button class="add2" onclick="awayAdd2()">+2</button>
+                <button class="add3" onclick="awayAdd3()">+3</button>
+                <button class="reset" onclick="resetAway()">reset</button>
+            </div>
+
+        </div>
+        
+    </div>
+
+</body>
+<script src="script.js"></script>
+<script src="https://kit.fontawesome.com/eaf99f9679.js" crossorigin="anonymous"></script>
+</html>

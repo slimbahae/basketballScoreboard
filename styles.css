@@ -1,0 +1,66 @@
+* {
+    padding:0;
+    margin: 0;
+    box-sizing: border-box;
+    flex: wrap;
+}
+
+body {
+    background-color: rgba(27, 36, 74, 1);
+}
+
+.scoreboard {
+    font-size: 2em;
+    display: flex;
+    justify-content: space-between;
+    margin: 1em;
+    padding: 1em;
+    border: solid 1px white;
+    border-radius: 10px;
+}
+
+.home,.away {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    color: white;
+}
+
+span {
+    margin: 20px;
+}
+
+.buttons {
+    display: flex;
+    flex-direction: row;
+}
+
+#scoreHome, #scoreAway {
+    width: 50%;
+    border: solid 1px white;
+    border-radius: 10px;
+    background-color: black;
+    color: red;
+    padding: 0.6em;
+    border-radius: 0.5em;
+    margin-left: 25%;
+}
+
+.add1, .add2, .add3, .reset {
+    border: solid 1px white;
+    border-radius: 10px;
+    font-size: 0.7em;
+    padding: 0.5em;
+    margin: 0.2em;
+    color: white;
+    background-color: rgba(27, 36, 74, 1);
+
+    cursor: pointer;
+}
+
+
+.ball-logo{
+   color: white;
+   font-size: 100px;
+   margin-top: 50px
+}
